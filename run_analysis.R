@@ -1,3 +1,10 @@
+library(plyr)
+##Downloads the data sets from the cloudfront website and unzips the file
+
+filename <- "getdata_dataset.zip"
+fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "
+download.file(fileURL, filename)
+unzip(filename)
 
 # Load activity labels + features
 activityLabels <- read.table("UCI HAR Dataset/activity_labels.txt")
@@ -36,4 +43,4 @@ allData$Activity <- factor(allData$Activity, levels = activityLabels[,1], labels
 
 tidy <- ddply(allData, .(Subject, Activity), function(x) colMeans(x[,3:81]))
 
-write.table(tidy, "Tidy.txt")
+write.table(tidy, "Tidy.txt",row.name=FALSE)
