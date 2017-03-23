@@ -9,4 +9,4 @@ The script `run_analysis.R`cleans and mutates the raw data from the Samsung Gala
 
 ## Activity Labels
 The following labels are used to distinguish the different activitys
-  (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
+<br />(WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
