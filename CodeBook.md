@@ -8,5 +8,5 @@ The script `run_analysis.R`cleans and mutates the raw data from the Samsung Gala
 * Creates a tidy data set and writes it to "Tidy.txt"
 
 ## Activity Labels
-The following labels are used to distinguish the different activitys
-<br />(WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
+The following labels are used to distinguish the different activitys:
+<br />    (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
