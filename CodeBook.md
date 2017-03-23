@@ -9,4 +9,7 @@ The script `run_analysis.R`cleans and mutates the raw data from the Samsung Gala
 
 ## Activity Labels
 The following labels are used to distinguish the different activitys:
-* (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
+* WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
+## Measurements
+Using the phones accelerometer and gyroscope, the Samsung captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The tidy data only uses the mean and stardard deviation measurements of each measurement
