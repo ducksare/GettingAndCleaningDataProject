@@ -6,3 +6,7 @@ The script `run_analysis.R`cleans and mutates the raw data from the Samsung Gala
 * Cleans up the measurement names and extract only the mean and standard deviation
 * Combines all the data into one large data frame
 * Creates a tidy data set and writes it to "Tidy.txt"
+
+## Activity Labels
+The following labels are used to distinguish the different activitys
+  (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
